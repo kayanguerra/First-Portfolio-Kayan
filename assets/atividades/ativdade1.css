@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+:root {
+  --blue: #007BFF;
+  --black: #050505;
+  --white: #fafafa;
+  --gray: #c9c9c9;
+  --DarkPurple: #2e013c;
+  --LightPurple: #20002a;
+  --Hacker: #10b981;
+}
+
+body {
+  background: black;
+  color: #F6F6F6;
+  }
+
+h1 {
+  font-weight: bold;
+}
+
+p {
+  margin: 10px;
+  border: 2px solid var(--DarkPurple);
+  padding: 5px;
+}
+
+.titulo-destaque {
+  color: var(--Hacker) ;
+}
+
+.paragrafo-destaque {
+  color: var(--DarkPurple) ;
+}
